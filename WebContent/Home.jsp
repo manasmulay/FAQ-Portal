@@ -13,11 +13,11 @@
 	<script src="js1/modernizr.js"></script> <!-- Modernizr -->
 	<script type="text/javascript" src="JS/jquery-1.8.2.min.js"></script>
 	
-	<title>SME List</title>
+	<title>Home</title>
 </head>
 <body>
 	<header>
-	<h1>Frequently Asked Question</h1>
+	<h1>Home</h1>
 	
 </header>
 	<section class="cd-faq">

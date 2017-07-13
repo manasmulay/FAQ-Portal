@@ -20,7 +20,7 @@
 		</script>
 		<script type="text/javascript" src="WEB-INF/JS/admin_js.js">
 		</script>
-		<title>Admin</title>
+		<title>SME</title>
 </head>
 <body>
 	<header>

@@ -68,7 +68,7 @@ span.psw {
 	<script src="js1/modernizr.js"></script> <!-- Modernizr -->
 	<script type="text/javascript" src="JS/jquery-1.8.2.min.js"></script>
 	
-	<title>SME List</title>
+	<title>Change user Password</title>
 </head>
 <body>
 	<header>
