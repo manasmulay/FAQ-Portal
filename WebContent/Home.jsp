@@ -1,37 +1,42 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Interactive FAQ Portal</title>
-	<link rel="stylesheet" type="text/css" href="CSS/basic.css">
-		
-		<script type="text/javascript" src="JS/jquery-1.8.2.min.js">
-		</script>
-		<script type="text/javascript" src="JS/basic.js">
-		</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css1/reset.css"> 
+	<link rel="stylesheet" type="text/css" href="css1/style.css">
+	<link rel="stylesheet" type="text/css" href="css1/sme.css">
+	<link rel="stylesheet" href="css1/form.css"> <!-- CSS reset -->
+
+	<script src="js1/modernizr.js"></script> <!-- Modernizr -->
+	<script type="text/javascript" src="JS/jquery-1.8.2.min.js"></script>
+	
+	<title>SME List</title>
 </head>
-<body style="margin: 0px;">
-		<div id="heading_bitspilani">
-			 FREQUENTLY  ASKED QUESTIONS<br /><p class="bits_pilani"> BITS, PILANI</p>
+<body>
+	<header>
+	<h1>Frequently Asked Question</h1>
+	
+</header>
+	<section class="cd-faq">
+		<ul class="cd-faq-categories">	
+				
+			<li><a href="Home.jsp">HOME</a></li>
+			<li><a href="Fetch">FAQs</a></li>
+			<li><a href="Login.jsp">LOGIN</a></li>
+			<li><a href="PostQuery.jsp">Post Query</a></li>
+			<li><a href="http://www.bits-pilani.ac.in/" >BITS HOME</a></li>
+		
+		</ul>
+		<div class="cd-faq-items">
+			
+			<figure>
+ 				<img style="width: 40vw;height: 50vh;" src="image/123.jpg">
+				<figcaption>FAQP, Frequently Asked Questions Portal, serves as the central node for all type of problems related to BITS, Pilani. Students get guidance and clarification through this portal.	
+				</figcaption>
+			</figure>
 		</div>
-		<div id="main_body">
-		<div id="view_options">
-			<a href="Home.jsp"><div class="options_class">HOME</div></a>
-			<a href="Fetch"><div class="options_class">FAQs</div></a>
-			<a href="Login.jsp"><div id="HOD" class="options_class">LOGIN</div></a>
-			<a href="PostQuery.jsp"><div class="options_class">Post Query</div></a>
-			<a href="http://www.bits-pilani.ac.in/" ><div class="options_class"> BITS HOME</div></a>
-		</div>
-		<div id="main_view_point">
-			<div id="image_show" style="float: left;"> 
-				<img style="width: 40vw;height: 50vh;" src="image/123.jpg">
-			</div>
-			<div id="intro_faq" style="float: left;">
-				 FAQP, Frequently Asked Questions Portal, serves as the central node for all type of problems related to BITS, Pilani. Students get guidance and clarification through this portal.	
-			</div>
-		</div>
-		</div>
-	</body>
+	</section>
 </html>

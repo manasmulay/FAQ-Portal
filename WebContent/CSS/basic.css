@@ -51,17 +51,7 @@
 					padding-left: 5vw;
 					padding-top: 15vh;
 				}
-				#login_form{
-					width: 20vw;
-					border: 1vh;
-					height: 30vh;
-					background-color: white;
-					margin-top: 25vh;
-					margin-left: 40vw;
-					border-radius: 5vh;
-					border: .2vh solid black;
-					text-align: center;
-				}
+				
 				.text_properties{
 					width: 8vw;
 				}
