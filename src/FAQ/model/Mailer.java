@@ -5,8 +5,8 @@ import javax.mail.*;
 import javax.mail.internet.*;    
 public class Mailer{  
 			
-			private String queryEmail = "sunitajoshi9090@gmail.com";
-			private String queryEmailPassword = "azsxdc09876";
+			private String queryEmail = "yourGoogleEmail";
+			private String queryEmailPassword = "p@$$vv0RD";
 	
 	
 			public String getQueryEmail() {
